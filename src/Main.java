@@ -1,4 +1,3 @@
-
 public class Main {
     public static void main(String[] args) {
         //Task1 TwoSum
@@ -54,10 +53,16 @@ public class Main {
         removeElement.removeElement(new int[]{0,1,2,2,3,0,4,2}, 2);
          */
         //Task 8 SearchInsertPosition
+        /*
         SearchInsertPosition   searchInsertPosition = new SearchInsertPosition();
         searchInsertPosition.searchInsert(new int[]{1,3,5,6}, 5);
         searchInsertPosition.searchInsert(new int[]{1,3,5,6}, 2);
         searchInsertPosition.searchInsert(new int[]{1,3,5,6}, 7);
+         */
+        MergeTwoLists mergeTwoLists = new MergeTwoLists();
+        ListNode list1 = new ListNode(0);
+        ListNode list2 = new ListNode(4);
+        mergeTwoLists.mergeTwoLists(list1,list2);
     }
 }
 

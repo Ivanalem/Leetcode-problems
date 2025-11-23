@@ -1,11 +1,15 @@
-package ListNodeTask5;
-/*
+import java.util.LinkedList;
+import java.util.List;
+
 public class MergeTwoLists{
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-
+        List<ListNode> mergList = new LinkedList<>();
+        mergList.add(list1);
+        mergList.add(list2);
+        return mergList.get(0);
     }
 }
-class ListNode {
+ class ListNode {
     int val;
     ListNode next;
     ListNode() {}
@@ -16,4 +20,3 @@ class ListNode {
         this.val = val; this.next = next;
     }
 }
-*/
