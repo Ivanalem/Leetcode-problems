@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -6,7 +7,7 @@ public class MergeTwoLists{
         List<ListNode> mergList = new LinkedList<>();
         mergList.add(list1);
         mergList.add(list2);
-        return mergList.get(0);
+        return null;
     }
 }
  class ListNode {

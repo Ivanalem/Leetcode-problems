@@ -59,10 +59,18 @@ public class Main {
         searchInsertPosition.searchInsert(new int[]{1,3,5,6}, 2);
         searchInsertPosition.searchInsert(new int[]{1,3,5,6}, 7);
          */
+        //Не закончена Task 9 MergeTwoList
+        /*
         MergeTwoLists mergeTwoLists = new MergeTwoLists();
         ListNode list1 = new ListNode(0);
         ListNode list2 = new ListNode(4);
         mergeTwoLists.mergeTwoLists(list1,list2);
+            */
+        //Task 10
+        ValidAnagram validAnagram = new ValidAnagram();
+        validAnagram.isAnagram("anagram","nagaram");
+        validAnagram.isAnagram("rat","car");
     }
+
 }
 
